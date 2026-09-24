@@ -34,9 +34,9 @@ each affected section is still accurate.
 `Python` `GitHub Actions` `embeddings`
 
 ### [ai-ats-resume-analyzer](https://github.com/AnshChhikara001/ai-ats-resume-analyzer)
-Scores a resume against a job description: keyword overlap plus MiniLM semantic similarity,
-a five-part ATS score, a check that listed skills are backed by real projects, and LLM
-feedback from Llama 3.3 via Groq.
+Scores a resume against a job description. Llama 3.3 (via Groq) parses both into structured
+fields; the score combines keyword overlap with MiniLM semantic similarity, and every listed
+skill is checked for evidence in the resume's projects and experience.
 
 `FastAPI` `spaCy` `Sentence-Transformers` `Supabase`
 
