@@ -43,6 +43,7 @@ skill is checked for evidence in the resume's projects and experience.
 ### [SnapClass](https://github.com/AnshChhikara001/SNAP-CLASS---ANSH)
 Classroom attendance from a single class photo: dlib face embeddings with an SVM classifier,
 plus voice verification with Resemblyzer speaker embeddings.
+**[Live demo](https://ansh-snap-classes.streamlit.app/)**
 
 `Streamlit` `dlib` `Resemblyzer` `Supabase`
 
