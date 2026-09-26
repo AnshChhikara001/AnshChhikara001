@@ -17,6 +17,19 @@ inline citations that are checked claim by claim against the cited source.
 
 `Python` `Chroma` `rank_bm25` `FastAPI` `Streamlit`
 
+### [synclint](https://github.com/AnshChhikara001/synclint) · [Marketplace](https://github.com/marketplace/actions/synclint)
+A GitHub Action that finds the documentation a pull request made wrong, repairs what it
+safely can, and flags the rest. It links code chunks (parsed with `ast`) to the markdown
+sections that describe them, asks a model whether each affected section is still accurate,
+and opens a pull request of repairs.
+- 100% precision and 0 false positives on 18 decoys; 7 of 7 changes found in a real library
+  ([humanize](https://github.com/python-humanize/humanize)), 61% recall on a planted-drift corpus
+- A rules-based gate stopped the one wrong repair that model validation approved; the model's
+  confidence (96–99% every time) could not
+- Released as v1.0.0, 227 tests, mypy strict. A live run costs about $0.002
+
+`Python` `GitHub Actions` `OpenAI` `ast` `embeddings`
+
 ### [pharma-ccms](https://github.com/AnshChhikara001/pharma-ccms)
 Customer complaint management for pharmaceutical QA. A complaint narrative pasted in plain
 English becomes a structured, auditable record through a LangGraph agent.
@@ -25,13 +38,6 @@ English becomes a structured, auditable record through a LangGraph agent.
 - Role-based access with segregation of duties, automatic audit trail, 299 backend tests
 
 `LangGraph` `FastAPI` `PostgreSQL` `React` `TypeScript`
-
-### [synclint](https://github.com/AnshChhikara001/synclint) · *in progress*
-A GitHub Action that finds documentation a pull request made wrong. It links code chunks
-(parsed with `ast`) to the markdown sections that describe them, then asks a model whether
-each affected section is still accurate.
-
-`Python` `GitHub Actions` `embeddings`
 
 ### [ai-ats-resume-analyzer](https://github.com/AnshChhikara001/ai-ats-resume-analyzer)
 Scores a resume against a job description. Llama 3.3 (via Groq) parses both into structured
