@@ -26,7 +26,7 @@ and opens a pull request of repairs.
   ([humanize](https://github.com/python-humanize/humanize)), 61% recall on a planted-drift corpus
 - A rules-based gate stopped the one wrong repair that model validation approved; the model's
   confidence (96–99% every time) could not
-- Released as v1.0.0, 227 tests, mypy strict. A live run costs about $0.002
+- Released as v1.0.0, 228 tests, mypy strict. A live run costs about $0.002
 
 `Python` `GitHub Actions` `OpenAI` `ast` `embeddings`
 
